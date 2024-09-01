@@ -5,7 +5,6 @@
 - [Enlace a la práctica 1](practica-1.md)
 
 ---
-¡Claro! Vamos a resumir lo que hicimos y lo que aprendimos durante el proceso de gestión de tu repositorio Git.
 
 ### **Lo Que Hicimos**
 
