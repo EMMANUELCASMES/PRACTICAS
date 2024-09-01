@@ -29,7 +29,7 @@
    - **Comando:** `git commit -m "Descripción de los cambios"`
    - **Qué Hicimos:** Guardamos los cambios en el repositorio con un mensaje descriptivo, creando un punto en el historial del repositorio.
 
-6. **Vincular con Repositorio Remoto**
+6. **Vincular con Repositorio Remoto*
    - **Comando:** `git remote add origin <url>`
    - **Qué Hicimos:** Asociamos nuestro repositorio local con un repositorio remoto en GitHub. Esto permite sincronizar cambios entre el repositorio local y el remoto.
 
@@ -72,4 +72,4 @@
 4. **Flujo de Trabajo en Git:**
    - **Proceso de Trabajo:** Desde la edición de archivos hasta la realización de commits y la sincronización con un repositorio remoto.
 
-Estos pasos y conceptos forman la base para gestionar proyectos de código con Git, lo que te permite realizar un seguimiento de cambios, colaborar con otros y mantener un historial claro de tu trabajo. ¡Si tienes más preguntas o necesitas aclaraciones adicionales, no dudes en preguntar!
+
