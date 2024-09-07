@@ -72,3 +72,9 @@
    - **Proceso de Trabajo:** Desde la edición de archivos hasta la realización de commits y la sincronización con un repositorio remoto.
 
 
+---
+
+## Repositorio de la Práctica 3
+
+Para ver el repositorio de la Práctica 3, visita [este enlace](https://github.com/lucero131012728/Practica-3-).
+
