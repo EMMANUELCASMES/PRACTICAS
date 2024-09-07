@@ -78,3 +78,8 @@
 
 Para ver el repositorio de la Práctica 3, visita [este enlace](https://github.com/lucero131012728/Practica-3-).
 
+
+## Práctica 5
+
+Para ver el contenido de la Práctica 5, visita [practica-5.md](practica-5.md).
+
