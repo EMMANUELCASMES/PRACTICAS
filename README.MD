@@ -83,3 +83,10 @@ Para ver el repositorio de la Práctica 3, visita [este enlace](https://github.c
 
 Para ver el contenido de la Práctica 5, visita [practica-5.md](practica-5.md).
 
+
+## Práctica 7
+
+[Repositorio de la Práctica 7](https://github.com/lucero131012728/PRACTICAA6-RAMAS.git)
+
+
+
