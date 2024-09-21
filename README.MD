@@ -89,5 +89,6 @@ Para ver el contenido de la Práctica 5, visita [practica-5.md](practica-5.md).
 
 Para ver el contenido de la Práctica 7, visita [Repositorio de la Práctica 7](https://github.com/lucero131012728/PRACTICAA6-RAMAS.git)
 
-
-
+## Práctica 7
+Para ver el contenido de la Práctica 8, visita 
+[Práctica 8](practica-8.md)
