@@ -6,7 +6,7 @@
 
 ---
 
-### **Lo Que Hicimos**
+<!--**Lo Que Hicimos**
 
 1. **Inicialización del Repositorio**
    - **Comando:** `git init`
@@ -70,7 +70,7 @@
 
 4. **Flujo de Trabajo en Git:**
    - **Proceso de Trabajo:** Desde la edición de archivos hasta la realización de commits y la sincronización con un repositorio remoto.
-
+ -->
 
 ---
 # ENLACES A LAS PRACTICAS 
