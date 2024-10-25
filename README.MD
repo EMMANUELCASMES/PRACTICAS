@@ -93,3 +93,11 @@ Para ver el contenido de la Práctica 7, visita [Repositorio de la Práctica 7](
 ## Práctica 8
 Para ver el contenido de la Práctica 8, visita 
 [Práctica 8](practica-8.md)
+
+# Mi Proyecto
+
+## Información del Autor
+- **Nombre:** Emmanuel Casales
+
+## Enlace a GitHub Pages
+- [Enlace a mi documento HTML desplegado](https://emmanuelcasmes.github.io/PRACTICAS/)
