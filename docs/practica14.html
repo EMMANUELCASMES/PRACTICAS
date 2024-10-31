@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!-- Indica que este documento es HTML5 -->
+<html lang="es"> <!-- Establece el idioma del contenido como español -->
+<head>
+    <title>Berserk</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres, permitiendo caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para dispositivos móviles -->
+    <meta name="description" content="Berserk sigue la historia de Guts..."> <!-- Proporciona una descripción para motores de búsqueda y previsualización -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Enlace a Google Fonts para usar la fuente Roboto -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Enlace a la hoja de estilos de Bootstrap -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace a tu hoja de estilos personalizada -->
+    <link rel="icon" href="imag/favicon.ico" type="image/x-icon"> <!-- Enlace al favicon para mostrar un ícono en la pestaña -->
+</head>
+<body>
+
+    <div class="container"> <!-- Contenedor Bootstrap que centra el contenido y aplica márgenes -->
+        <h1 class="text-center mt-4">Berserk</h1> <!-- Título principal, centrado y con margen superior -->
+        <img class="img-fluid" src="imag/Berserk_anime_logo.png" alt="Berserk_anime_logo"> <!-- Imagen responsiva del logo de Berserk -->
+
+        <h2>Año de estreno: <span class="font-weight-normal">1997</span></h2> <!-- Subtítulo con año de estreno, usando un span para estilo -->
+        <h2>País de origen: <span class="font-weight-normal">Japón</span></h2> <!-- Subtítulo con país de origen -->
+        <h2>Género: <span class="font-weight-normal">Acción, Fantasía oscura</span></h2> <!-- Subtítulo con género de la serie -->
+        <h2>Creadores: <span class="font-weight-normal">Kentaro Miura</span></h2> <!-- Subtítulo con creador de la serie -->
+
+        <h2>Sinopsis</h2> <!-- Encabezado para la sinopsis -->
+        <p>Berserk sigue la historia de Guts... </p> <!-- Párrafo con la sinopsis de la serie -->
+
+        <h2>Temporada</h2> <!-- Encabezado para la sección de temporadas -->
+        <ul> <!-- Lista desordenada para mostrar las temporadas -->
+            <li>Temporada 1997: 25 episodios</li> <!-- Elemento de lista para la primera temporada -->
+            <li>Temporada 2: 12 episodios (Berserk: The Golden Age Arc)</li> <!-- Elemento de lista para la segunda temporada -->
+            <li>Temporada 3: 12 episodios (Berserk: The Golden Age Arc Memorial Edition)</li> <!-- Elemento de lista para la tercera temporada -->
+        </ul>
+
+        <img class="img-fluid" src="imag/posterr.jpg" alt="posterr"> <!-- Imagen responsiva de un póster de Berserk -->
+
+        <h2>Personajes Principales</h2> <!-- Encabezado para la sección de personajes -->
+        <table class="table"> <!-- Tabla con la clase Bootstrap para un diseño limpio -->
+            <thead> <!-- Encabezado de la tabla -->
+                <tr>
+                    <th>Nombre</th> <!-- Cabecera para el nombre del personaje -->
+                    <th>Foto</th> <!-- Cabecera para la foto del personaje -->
+                    <th>Descripción</th> <!-- Cabecera para la descripción del personaje -->
+                </tr>
+            </thead>
+            <tbody> <!-- Cuerpo de la tabla donde se listan los personajes -->
+                <tr>
+                    <td>Guts</td> <!-- Fila para el personaje Guts -->
+                    <td><img class="img-thumbnail" src="imag/gutss.jpg" alt="gutss"></td> <!-- Imagen de Guts con estilo de miniatura -->
+                    <td>Protagonista de la serie, un guerrero formidable...</td> <!-- Descripción de Guts -->
+                </tr>
+                <tr>
+                    <td>Griffith</td> <!-- Fila para el personaje Griffith -->
+                    <td><img class="img-thumbnail" src="imag/griffith.jpg" alt="Griffith"></td> <!-- Imagen de Griffith -->
+                    <td>El carismático líder de la Banda del Halcón...</td> <!-- Descripción de Griffith -->
+                </tr>
+                <tr>
+                    <td>Casca</td> <!-- Fila para el personaje Casca -->
+                    <td><img class="img-thumbnail" src="imag/casca.jpg" alt="Casca"></td> <!-- Imagen de Casca -->
+                    <td>Una guerrera valiente y miembro de la Banda del Halcón...</td> <!-- Descripción de Casca -->
+                </tr>
+            </tbody>
+        </table>
+
+        <section> <!-- Sección para enlaces relacionados -->
+            <h2>Enlaces</h2> <!-- Encabezado para la sección de enlaces -->
+            <ul class="list-unstyled"> <!-- Lista sin estilo para enlaces -->
+                <li><a href="https://www.facebook.com/share/g/hRvBZMwCb79MJajH/" target="_blank">Sitio Oficial</a></li> <!-- Enlace al sitio oficial -->
+                <li><a href="https://twitter.com/berserk" target="_blank">Twitter</a></li> <!-- Enlace a Twitter -->
+                <li><a href="https://instagram.com/berserk" target="_blank">Instagram</a></li> <!-- Enlace a Instagram -->
+            </ul>
+        </section>
+
+        <h2>Trailer</h2> <!-- Encabezado para la sección del tráiler -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IXL5r3n862U?si=vDdTY1bApxIyQb6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- Reproductor de YouTube embebido para el tráiler -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- Enlace a jQuery, necesario para algunos componentes de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> <!-- Enlace a Popper.js, necesario para ciertos componentes de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Enlace al script de Bootstrap para añadir funcionalidad -->
+</body>
+</html>
