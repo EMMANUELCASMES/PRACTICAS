@@ -10,43 +10,64 @@
     <style>
         /* Estilos personalizados para colores */
         body {
-            background-color: #f4f4f4;
+            background-color: #000000;
+            color: #ffffff;
         }
         .navbar {
-            background-color: #333;
+            background-color: #f40909;
         }
         .navbar-brand, .nav-link {
-            color: #fff !important;
+            color: #ffffff !important;
+        }
+        .navbar-toggler-icon {
+            filter: invert(1);
         }
         .hero {
-            background-image: url('banner.jpg'); /* Coloca una imagen de banner */
+            background-image: url(''); /* Coloca una imagen de banner */
             background-size: cover;
             background-position: center;
-            color: #fff;
+            color: #ffffff;
             text-align: center;
             padding: 100px 20px;
         }
         .hero .btn {
-            background-color: #d9534f;
-            color: #fff;
+            background-color: #ff0800;
+            color: #ffffff;
             padding: 10px 20px;
             border: none;
         }
         .section-title {
-            color: #d9534f;
+            color: #ff0800;
             text-align: center;
+            margin: 40px 0;
         }
         .card {
+            background-color: #1e1e1e;
             border: none;
+            color: #ffffff;
         }
         .card-title {
-            color: #d9534f;
+            color: #ff0800;
         }
         .footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #333333;
+            color: #ffffff;
             text-align: center;
             padding: 1em 0;
+        }
+        /* Mapa responsive */
+        .map-responsive {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+        .map-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -54,9 +75,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="imag/daytonalogo.jpeg" height="24xp"
-            width="auto"
-            alt="logo"></a>
+        <a class="navbar-brand" href="#"><img src="imag/daytonalogo.jpeg" height="24xp" width="auto" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -96,7 +115,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Reparación Electrónica</h5>
+                            <h5 class="card-title">Hojalateria y pintura</h5>
                             <p class="card-text">Soluciones especializadas para sistemas electrónicos de última generación.</p>
                         </div>
                     </div>
@@ -142,9 +161,9 @@
         <!-- Contact Section -->
         <section id="contact" class="my-5">
             <h2 class="section-title">Contacto</h2>
-            <p class="text-center">Dirección: Calle Ejemplo 123, Ciudad</p>
-            <p class="text-center">Teléfono: +52 123 456 7890</p>
-            <p class="text-center">Correo: contacto@daytonaautomotriz.com</p>
+            <p class="text-center">Dirección: Av. José Loreto Fabela 733a, San Juan de Aragón VII Secc, Gustavo A. Madero, 07950 Ciudad de México, CDMX</p>
+            <p class="text-center">Teléfono: 55 6970 7188 55140079</p>
+            <p class="text-center">Correo: asesor1@daytonaautomotriz.com</p>
             <p class="text-center">Horarios: Lunes a Viernes, 9:00 am - 6:00 pm</p>
 
             <!-- Google Maps Location -->
@@ -177,9 +196,10 @@
         <p>&copy; 2024 Daytona Automotriz. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+      <!-- Bootstrap JS and dependencies -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  
