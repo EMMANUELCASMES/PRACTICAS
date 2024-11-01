@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro de Reparación y Diagnóstico Automotriz - Daytona Automotriz">
+    <title>Daytona Automotriz</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para colores */
+        body {
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .hero {
+            background-image: url('banner.jpg'); /* Coloca una imagen de banner */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero .btn {
+            background-color: #d9534f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+        }
+        .section-title {
+            color: #d9534f;
+            text-align: center;
+        }
+        .card {
+            border: none;
+        }
+        .card-title {
+            color: #d9534f;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="imag/daytonalogo.jpeg" height="24xp"
+            width="auto"
+            alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Reseñas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4">Tu confianza, nuestro compromiso en cada reparación</h1>
+            <p>Especialistas en diagnóstico y reparación automotriz.</p>
+            <a href="#contact" class="btn btn-lg">Reservar Cita</a>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+
+        <!-- Services Section -->
+        <section id="services" class="my-5">
+            <h2 class="section-title">Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Diagnóstico de Motores</h5>
+                            <p class="card-text">Identificación precisa de problemas en el motor para una reparación efectiva.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Reparación Electrónica</h5>
+                            <p class="card-text">Soluciones especializadas para sistemas electrónicos de última generación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Mantenimiento Preventivo</h5>
+                            <p class="card-text">Asegura la vida útil de tu vehículo con nuestros servicios de mantenimiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="my-5">
+            <h2 class="section-title">Acerca de Nosotros</h2>
+            <p>En Daytona Automotriz, contamos con un equipo de expertos en reparación y diagnóstico automotriz. Nuestro compromiso es brindar un servicio confiable y de alta calidad para mantener tu vehículo en óptimas condiciones.</p>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="my-5">
+            <h2 class="section-title">Reseñas de Clientes</h2>
+            <div class="carousel slide" id="carouselTestimonials" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="text-center">"Excelente servicio, muy profesional y confiable. Recomiendo Daytona Automotriz a todos mis conocidos." - Carlos M.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="text-center">"Solucionaron el problema de mi auto en tiempo récord. ¡Muy satisfecho!" - Ana G.</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="my-5">
+            <h2 class="section-title">Contacto</h2>
+            <p class="text-center">Dirección: Calle Ejemplo 123, Ciudad</p>
+            <p class="text-center">Teléfono: +52 123 456 7890</p>
+            <p class="text-center">Correo: contacto@daytonaautomotriz.com</p>
+            <p class="text-center">Horarios: Lunes a Viernes, 9:00 am - 6:00 pm</p>
+
+            <!-- Google Maps Location -->
+            <div class="map-responsive text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.620465075414!2d-99.08218152486565!3d19.471923781815942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb1d415fec29%3A0xecee0d5eb8708ff1!2sDaytona%20Automotriz!5e0!3m2!1ses!2smx!4v1730425427887!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form mt-4">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Daytona Automotriz. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
