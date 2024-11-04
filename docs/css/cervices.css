@@ -5,7 +5,7 @@ body {
     color: #ffffff;
 }
 .navbar {
-    background-color: #f40909;
+    background-color: #ff0000;
 }
 .navbar-brand, .nav-link {
     color: #ffffff !important;
@@ -14,7 +14,7 @@ body {
     filter: invert(1);
 }
 .hero {
-    background-image: url(''); /* Coloca una imagen de banner */
+    background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=2njhkj9Q&id=2594AD609861175BCE31EF08C30336E13B912F87&thid=OIP.2njhkj9QLNlNIHGCL5GlqwHaE8&mediaurl=https%3a%2f%2ffundaciondonavida.org%2fwp-content%2fuploads%2flic-ingenieria-mecanica-automotriz-1536x1024.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.da78e1923f502cd94d2071822f91a5ab%3frik%3dhy%252bRO%252bE2A8MI7w%26pid%3dImgRaw%26r%3d0&exph=1024&expw=1536&q=TALLER+AUTOMOTRIZ&simid=608005505604931141&FORM=IRPRST&ck=971C494745FCF43F7B3E76F0C0E052E6&selectedIndex=73&itb=0'); /* Coloca una imagen de banner */
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -89,7 +89,7 @@ body {
     box-sizing: border-box;
 }
 .flip-box-front {
-    background-color: #4CAF50;
+    background-color: #ff0000;
 }
 .flip-box-back {
     background-color: #555;
