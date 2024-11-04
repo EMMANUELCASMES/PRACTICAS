@@ -101,3 +101,5 @@ Para ver el contenido de la Práctica 8, visita
 
 ## Enlace a GitHub Pages
 - [Enlace a mi documento HTML desplegado](https://emmanuelcasmes.github.io/PRACTICAS/)
+- [Ver práctica 14](https://emmanuelcasmes.github.io/PRACTICAS/docs/practica14.html)
+- [Ver práctica 15](https://emmanuelcasmes.github.io/PRACTICAS/docs/daytona.html)
