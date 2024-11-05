@@ -1,6 +1,7 @@
 
 /* Estilos personalizados para colores */
 body {
+
     background-color: #000000;
     color: #ffffff;
 }
@@ -14,12 +15,16 @@ body {
     filter: invert(1);
 }
 .hero {
-    background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=2njhkj9Q&id=2594AD609861175BCE31EF08C30336E13B912F87&thid=OIP.2njhkj9QLNlNIHGCL5GlqwHaE8&mediaurl=https%3a%2f%2ffundaciondonavida.org%2fwp-content%2fuploads%2flic-ingenieria-mecanica-automotriz-1536x1024.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.da78e1923f502cd94d2071822f91a5ab%3frik%3dhy%252bRO%252bE2A8MI7w%26pid%3dImgRaw%26r%3d0&exph=1024&expw=1536&q=TALLER+AUTOMOTRIZ&simid=608005505604931141&FORM=IRPRST&ck=971C494745FCF43F7B3E76F0C0E052E6&selectedIndex=73&itb=0'); /* Coloca una imagen de banner */
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 20px;
+   padding: 0; /* Ajusta el padding para el carrusel */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover; /* Cubre toda el área de la sección */
 }
 .hero .btn {
     background-color: #ff0800;
